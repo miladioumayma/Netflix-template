@@ -1,0 +1,92 @@
+body {
+  background-image: url(fala-universidades-netflix-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  color: white;
+
+}
+
+.container {
+  width: 300px;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.637);
+  padding: 70px;
+  margin: 100px;
+  align-items: center;
+
+}
+button {
+    background-color: rgba(255, 0, 0, 0.856);
+    border: none;
+    margin: 30px;
+    color: white;
+    width: 200px;
+    height: 30px;
+    opacity: 90%;
+  }
+  button:hover {
+    opacity: 60%;
+    background-color: rgba(94, 53, 53, 0.753);
+  }
+
+  header h1 {
+    font-family: Bebas Neue;
+    color: red;
+    margin: 0;
+    padding: 0;
+    margin-left: -340px;
+  }
+  #butn{
+    background-color: rgba(255, 0, 0, 0.856);
+    border: none;
+    margin: 30px;
+    color: white;
+    width: 200px;
+    height: 30px;
+    opacity: 90%;
+    margin-left: -340px;
+    margin-top: 5px;
+    
+  }
+  #butn:hover {
+    opacity: 60%;
+    background-color: rgba(94, 53, 53, 0.753);
+  }
+  
+  input[type="Full name"],
+  input[type="Email"],
+  input[type="Phone number"],
+  input[type="Country"],
+  
+  
+  textarea {
+    background-color: gray;
+    opacity: 50%;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    margin-bottom: 15px;
+    width: 220px;
+    height: 20px;
+  }
+  input[type="Full name"]::placeholder,
+  input[type="Email"]::placeholder,
+  input[type="Phone number"]::placeholder,
+  input[type="Country"]::placeholder
+   {
+    color: rgba(255, 255, 255, 0.959);
+  }
+  #date{
+    background-color: gray;
+    opacity: 50%;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    margin-bottom: 15px;
+    width: 220px;
+    height: 20px;
+    color:white
+  }
+  
